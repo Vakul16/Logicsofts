@@ -1,0 +1,56 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  background: #ffffff;
+}
+nav ul {
+  display: flex;
+}
+.nav-icon a {
+  color: royalblue;
+  text-decoration: none;
+  font-size: 16px;
+  color: #233c4c;
+  font-family: "SegoeUI-Semibold";
+  cursor: pointer;
+}
+.nav-icon button {
+  cursor: pointer;
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #183c60;
+  border-radius: 30px;
+  font-family: "SegoeUI-Semibold";
+  padding: 8px 25px;
+  transition: all 0.3s ease-out;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.nav-icon button:hover {
+  background-color: #183c60;
+  color: #fff;
+}
+.nav-icon a:hover {
+  color: #be2664;
+}
+.nav-icon {
+  display: flex;
+  align-self: center;
+  padding: 30px 40px 20px 30px;
+}
+.nav-logo {
+  font-size: 10px;
+  margin-right: 105px;
+  object-fit: contain;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  padding-left: 10px;
+}
+.active {
+  font-weight: bold;
+  color: white;
+}

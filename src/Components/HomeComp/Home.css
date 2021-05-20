@@ -1,0 +1,38 @@
+.home {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  background-color: #fff;
+  border: 1px solid #ededed;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #24375b;
+  text-align: center;
+  font-family: "SegoeUI-Semibold";
+  color: #fff;
+}
+.headings h1 {
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-size: 60px;
+}
+.headings h2 {
+  line-height: 1.1;
+  letter-spacing: 1px;
+  font-size: 60px;
+}
+.headings p {
+  max-width: 800px;
+  font-size: 25px;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
