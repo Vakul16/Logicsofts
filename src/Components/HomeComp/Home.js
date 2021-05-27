@@ -3,6 +3,7 @@ import Blogs from "../BlogComp/Blogs";
 import Pagination from "../PagesComp/Pagination";
 import axios from "axios";
 import Nav from "../NavComp/Nav";
+
 import "./Home.css";
 const Home = () => {
   const [blogs, setBlogs] = useState([]);
@@ -37,14 +38,73 @@ const Home = () => {
       <Nav />
       <div className="home">
         <div className="headings">
-          <h1 >Blog Posts</h1>
-          <h2 >"Smart marketing" starts here</h2>
-          <p>
-            Join over 150,000 marketing managers who get our best digital
-            marketing insights, strategies and tips delivered straight to their
-            inbox.
-          </p>
+          <div className="headings1">
+            <h1>
+              Smart marketing <br />
+              starts here
+            </h1>
+            <h4>
+              Join over 150,000 marketing managers who get our best digital
+              marketing insights, strategies and tips delivered straight to
+              their inbox.
+            </h4>
+          </div>
+          <form>
+            <div className="service-form-box">
+              <div className="form-group">
+                <input
+                  type="email"
+                  name
+                  className="form-control"
+                  placeholder="ENTER YOUR WORK EMAIL"
+                />
+              </div>
+              <div className="submit-btn">
+                <button type="submit">Subscribe</button>
+              </div>
+            </div>
+          </form>
         </div>
+
+        <div className="mid-section">
+          <div className="mid-section-img">
+            <a href="single-blog.html">
+              <img
+                src="http://design.ukwebsitedesigncompany.co.uk/logicsoft-newdesign-2020/html/img/blog-list-1.png"
+                width="530"
+                height="350"
+              />
+            </a>
+          </div>
+
+          <div className="mid-section-text">
+            <h3>
+              <a href="single-blog.html">
+                Top Software Development Companies in London – Compare Quotes
+              </a>
+            </h3>
+            <p className="mid-section-desc">
+              Kickstart the growth of your business with a professionally
+              designed website and software development services offered by
+              Logicsofts, one of the leading software development
+            </p>
+            <div className="read-more">
+              <a href="single-blog.html">Read more</a>
+            </div>
+            <div className="author">
+              <div className="author-img">
+                <img src="http://design.ukwebsitedesigncompany.co.uk/logicsoft-newdesign-2020/html/img/author.png" />
+              </div>
+              <div className="author-name">
+                <h4>
+                  <span>Author : </span>
+                  <a href="#">Sam Singh</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* To display Blogs */}
         <Blogs blogs={currentBlogs} />
         <Pagination

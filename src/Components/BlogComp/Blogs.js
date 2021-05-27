@@ -21,7 +21,7 @@ const Blogs = ({ blogs }) => {
             height="395"
           >
             <MDBCardImage
-              src="https://cdn.lifehack.org/wp-content/uploads/2013/07/best-blogs-1024x768.jpeg"
+              src="http://design.ukwebsitedesigncompany.co.uk/logicsoft-newdesign-2020/html/img/blog-list-2.png"
               position="top"
               alt="..."
               width="350"
